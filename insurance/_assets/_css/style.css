@@ -779,7 +779,7 @@ header {
 
 header .logo {
     float: left;
-    padding-top: 26px;
+    padding-top: 16px;
 }
 
 header .menu {
@@ -1162,7 +1162,7 @@ header .menu-responsive {
 
 .heading .heading-content h2 {
     color: #2C3459;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .heading .heading-content h3 {
@@ -1728,6 +1728,7 @@ section.insurances-slider .content p a:hover {
 }
 
 section.insurances-slider .content .tabs {
+    width: 450px;
     margin-top: 70px;
 }
 
