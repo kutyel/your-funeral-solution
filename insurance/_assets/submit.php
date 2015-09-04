@@ -13,7 +13,7 @@
     define( 'OWNER_EMAIL', 'jinsur09@yahoo.es' );
 
     # put your website "do not reply" email here
-    define( 'DONOTREPLY_EMAIL', 'jinsur09@yahoo.es' );
+    define( 'DONOTREPLY_EMAIL', 'no-reply@yourfuneralsolution.com' );
 
     # put your name here
     define( 'OWNER_NAME', 'Johnathan Rios' );
