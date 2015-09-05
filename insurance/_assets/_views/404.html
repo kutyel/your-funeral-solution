@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <title>Error 404</title>
+
+    {{> styles}}
+
+</head>
+<body>
+
+    {{> main-header}}
+
+    <section class="box-with-image-right section-top-space">
+
+        <div class="center">
+
+            <div class="green-line">
+            </div>
+
+            <div class="content">
+
+                <h2>Error 404</h2>
+
+                <p>Sorry, the page you tried cannot be found.<br /> You can check one of the following pages if you want.</p>
+                <ul>
+
+                    <li><a href="/index.php">Home</a></li>
+                    <li><a href="/index.php?view=agent">Agent</a></li>
+                        <ul>
+                            <li><a href="/index.php?view=funeral-insurance">Funeral insurance</a></li>
+                            <li><a href="/index.php?view=car-insurance">Car insurance</a></li>
+                            <li><a href="/index.php?view=house-insurance">House insurance</a></li>
+                            <li><a href="/index.php?view=healthcare-insurance">Healthcare insurance</a></li>
+                        </ul>
+                    <li><a href="/index.php?view=contact">Contact</a></li>
+                </ul>
+
+                <form method="get" action="/index.php" class="form">
+
+                    <input type="text" placeholder="Type..." />
+                    <button class="button button-navy-blue send-phone-call-quote">Search!</button>
+
+                </form>
+
+            </div>
+
+            <div class="image" style="background-image: url( '_assets/_img/johnathan-rios.png' );">
+
+                <div class="image-caption">
+
+                    <p><strong>Johnathan Ríos</strong></p>
+                    <p>Specialist on Relations with Customers</p>
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+    </section>
+
+    {{> main-footer}}
+
+</body>
+</html>

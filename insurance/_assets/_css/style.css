@@ -834,7 +834,7 @@ header .menu li:hover i {
 header .submenu {
     position: absolute;
     background: #DE0817;
-    width: 200px;
+    width: 250px;
     margin-left: -45px;
     margin-top: -1px;
     padding: 10px 0;
@@ -889,7 +889,7 @@ header .submenu li a:hover {
 }
 
 header .submenu .submenu {
-    margin-left: -200px;
+    margin-left: -250px;
     margin-top: -48px;
 }
 
@@ -1161,7 +1161,7 @@ header .menu-responsive {
 }
 
 .heading .heading-content h2 {
-    color: #2C3459;
+    color: #DE0817; /* main text */
     font-weight: 500;
 }
 
@@ -5444,7 +5444,7 @@ footer p.important {
     }
 
     #quote-popup #quote-popup-content #quote-popup-tabs {
-        left: 240px;
+        left: 220px;
     }
 
     #quote-popup #quote-popup-content .quote-form .quote-form-background {
